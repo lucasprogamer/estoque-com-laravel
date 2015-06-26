@@ -25,6 +25,8 @@ class LoginController extends Controller
  	  		if (Auth::attempt($credenciais,$remenber)) {
  	  			return redirect()->action('ProdutoController@lista');
  	  		}else{
+ 	  			$return = 'Usuario ou senha invalidos';
+
  	  			return redirect()->action('LoginController@login');
  	  		}
  	  	}

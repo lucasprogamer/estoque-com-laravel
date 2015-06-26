@@ -3,12 +3,12 @@
 @section('conteudo')
 	<div class="panel panel-default">
   		<div class="panel-heading">
-    		<h3 class="panel-title">Login</h3>
+    		<h3 class="panel-title">Registro</h3>
   		</div>
 
   		<div class="panel-body">
     		
-    		<form action="/auth/register" method="post">
+    		<form action="auth/register" method="post">
 				<input type="hidden" name="_token" value="{{{ csrf_token() }}}">
 
 				<div class="form-group">
