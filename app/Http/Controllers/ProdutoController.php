@@ -1,6 +1,6 @@
 <?php namespace estoque\Http\Controllers;
 use Illuminate\Support\Facades\DB;
-use estoque\http\Requests\ProdutoRequest;
+use estoque\Http\Requests\ProdutoRequest;
 use estoque\Produto;
 use Request;
 
