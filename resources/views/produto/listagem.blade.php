@@ -8,7 +8,6 @@
 			</div>
 			@else
 
-
 	<h1>Listagem de produtos</h1>
 
 		<table class="table table-striped table-bordered table-hover">		

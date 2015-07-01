@@ -5,7 +5,10 @@
   		<div class="panel-heading">
     		<h3 class="panel-title">Login</h3>
   		</div>
-  		  @if(count($errors)>0)
+  
+  		<div class="panel-body">
+
+    @if(count($errors)>0)
 	<div class="alert alert-danger">
 		<ul>
 			@foreach($errors->all() as $error)
@@ -15,10 +18,9 @@
 		</ul>
 	</div>
 	@endif
-  		<div class="panel-body">
-    		
-    		<form action="login/auth" method="post">
-				<input type="hidden" name="_token" value="{{{ csrf_token() }}}">
+
+			<form method="POST" action="/login/auth">
+   				 {!! csrf_field() !!}
 		
 				<div class="form-group">
 					<label>E-mail</label>
@@ -33,7 +35,7 @@
           		<input type="checkbox" name="remenber"> Lembrar me
        	     </label>
       	    </div>
-			<button class="btn btn-primary btn-small">Logar</button>     <a href=""><span>Esqueceu sua Senha?</span>
+			<button class="btn btn-primary btn-small">Logar</button><a href=""><span>Esqueceu sua Senha?</span>
 		</form>
 
   		</div>

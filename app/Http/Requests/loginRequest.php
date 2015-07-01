@@ -25,7 +25,7 @@ class loginRequest extends Request
     {
         return [
         'email'=>'required|max:50',
-        'password'=>'required|max:20|min:6'
+        'password'=>'required|max:20'
         ];
     }
         public function messages()

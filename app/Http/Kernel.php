@@ -29,5 +29,6 @@ class Kernel extends HttpKernel
         'auth' => \estoque\Http\Middleware\Authenticate::class,
         'auth.basic' => \Illuminate\Auth\Middleware\AuthenticateWithBasicAuth::class,
         'guest' => \estoque\Http\Middleware\RedirectIfAuthenticated::class,
+        'nosso-middleware'=> \estoque\Http\Middleware\AutorizacaoMiddleware::class,
     ];
 }

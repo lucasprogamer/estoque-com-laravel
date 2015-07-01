@@ -1,10 +1,19 @@
 nav.navbar.navbar-default{
-	background-color: #337ab7;
-	border-color: #2e6da4;
+
+  background: -webkit-linear-gradient(90deg, #614385 10%, #516395 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #614385 10%, #516395 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #614385 10%, #516395 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #614385 10%, #516395 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #614385 10%, #516395 90%); /* W3C */
+        
 	margin-top: 10px;
 }
 
 nav.navbar.navbar-default a{
+	color: white;
+	font-weight: bolder;
+}
+nav.navbar.navbar-default a:hover{
 	color: white;
 }
 

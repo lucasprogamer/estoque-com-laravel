@@ -8,8 +8,8 @@
 
   		<div class="panel-body">
     		
-    		<form action="auth/register" method="post">
-				<input type="hidden" name="_token" value="{{{ csrf_token() }}}">
+			<form method="POST" action="/auth/register">
+    			{!! csrf_field() !!}
 
 				<div class="form-group">
 					<label>Nome</label>
