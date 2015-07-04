@@ -15,9 +15,16 @@ Route::get('home', function () {
     return view('welcome');
 });
 
+Route::get('start', function () {
+    return view('layout.start');
+});
+
+
+
+
 	Route::get('/',function()
 	{
-		return '<h1> Primeira Logica Com Laravel</h1>';
+    return view('welcome');
 	});
 
 	Route::get('/produtos','ProdutoController@lista');
@@ -43,7 +50,6 @@ Route::get('home', function () {
 	Route::get('/registro' , 'LoginController@registro');
 	
 	Route::get('login/register' , 'LoginController@register');
-
 
 
 	Route::controllers([
