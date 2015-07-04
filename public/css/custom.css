@@ -1,3 +1,11 @@
+@media (max-width: 767px){
+
+.navbar-nav .open .dropdown-menu>li>a{
+	color: white !important;
+}
+}
+
+
 nav.navbar.navbar-default{
 
   background: -webkit-linear-gradient(90deg, #614385 10%, #516395 90%); /* Chrome 10+, Saf5.1+ */
