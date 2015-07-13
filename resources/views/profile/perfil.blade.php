@@ -1,6 +1,7 @@
 @extends('layout.principal')
 
 @section('conteudo')
+	
 	<div class="panel panel-default">
   		<div class="panel-heading">
     		<h3 class="panel-title">Login</h3>
@@ -24,11 +25,11 @@
 		
 				<div class="form-group">
 					<label>E-mail</label>
-						<input type="text" name="email" value="" class="form-control" placeholder="email@exemplo.com" required>
+						<input type="text" name="email" value="" class="form-control" placeholder="email@exemplo.com">
 				</div>
 				<div class="form-group">
 					<label>Senha</label>
-						<input type="password" name="password" value="" class="form-control" placeholder="Sua Senha" required>
+						<input type="password" name="password" value="" class="form-control" placeholder="Sua Senha">
 				</div>
 			<div class="checkbox">
        		 <label>
@@ -41,4 +42,5 @@
   		</div>
 	</div>
 		
+
 @stop

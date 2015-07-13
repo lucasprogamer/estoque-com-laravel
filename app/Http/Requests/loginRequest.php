@@ -24,7 +24,7 @@ class loginRequest extends Request
     public function rules()
     {
         return [
-        'email'=>'required|max:50',
+        'email'=>'required|max:50|email',
         'password'=>'required|max:20'
         ];
     }
@@ -34,7 +34,8 @@ class loginRequest extends Request
             'email.required'=>'O campo email não pode ficar vazio',
             'password.required' => 'O campo Senha não pode ficar vazio',
             'password.min' => 'Senhas devem ter no minimo 6 caracteres',
-            'password.max' => 'Senhas devem ter no maximo 20 caracteres'
+            'password.max' => 'Senhas devem ter no maximo 20 caracteres',
+            'email.email' => 'tipo de email invalido'
 
                 ];
     }

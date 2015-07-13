@@ -51,6 +51,8 @@ Route::get('start', function () {
 	
 	Route::get('login/register' , 'LoginController@register');
 
+	Route::get('/admin/perfil', 'ProfileController@perfil');
+
 
 	Route::controllers([
 			'auth' => 'Auth\AuthController',

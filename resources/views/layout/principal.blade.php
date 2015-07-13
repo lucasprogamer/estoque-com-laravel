@@ -37,7 +37,7 @@
 							</a>
 
 							<ul class="dropdown-menu" role="menu">
-								<li><a href="/auth/logout">Perfil</a></li>
+								<li><a href="/admin/perfil">Perfil</a></li>
 								<li><a href="/auth/logout">Logout</a></li>
 							</ul>
 						</li>
