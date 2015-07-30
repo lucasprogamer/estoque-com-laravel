@@ -26,8 +26,8 @@ class LoginController extends Controller
  	  			return redirect()->action('ProdutoController@lista');
  	  		}else{
 
- 				$faillogin = 'login incorreto';  			
- 	  			return redirect()->action('LoginController@login')->with($faillogin); 						
+ 				$faillogin = 'login incorreto';
+ 	  			return redirect()->action('LoginController@login')->with($faillogin);
  	  		}
  	  	}
 

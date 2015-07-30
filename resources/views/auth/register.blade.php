@@ -1,9 +1,6 @@
 @extends('layout.principal')
 
 @section('conteudo')
-	@if(Auth::guest)
-		
-	@endif
 	<div class="panel panel-default">
   		<div class="panel-heading">
     		<h3 class="panel-title">Registro</h3>
