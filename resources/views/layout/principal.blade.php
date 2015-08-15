@@ -1,6 +1,6 @@
 <html>
 <head>
-	<link  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/custom.css">
 	<title>Controle de Estoque</title>
 </head>

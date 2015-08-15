@@ -13,7 +13,7 @@
 
 				<div class="form-group">
 					<label>Nome</label>
-						<input type="text" name="name" value="" class="form-control" placeholder="Seu Nome">
+						<input type="text" name="name" value="{{{isset($p->nome) ? $p->nome : old('nome')}}}" class="form-control" placeholder="Seu Nome">
 				</div>
 		
 				<div class="form-group">
