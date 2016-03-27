@@ -11,7 +11,7 @@ class AutorizacaoMiddleware {
 
     /*
     *
-    * vamos ver se essa bagaça prestou
+    * aehooo carolho funfou
     */
     public function handle($request, Closure $next)
     {
