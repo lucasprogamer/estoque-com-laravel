@@ -11,7 +11,7 @@ class AutorizacaoMiddleware {
 
    /*
    *
-   * fodase sabagaça
+   * fodase se esta bugando
    */
     public function handle($request, Closure $next)
     {
