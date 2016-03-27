@@ -11,7 +11,7 @@ class AutorizacaoMiddleware {
 
     /*
     *
-    * hoje estou configurando o git
+    * vamos ver se essa bagaça prestou
     */
     public function handle($request, Closure $next)
     {
