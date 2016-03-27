@@ -8,6 +8,11 @@ class AutorizacaoMiddleware {
      * @param  \Closure  $next
      * @return mixed
      */
+
+    /*
+    *
+    * hoje estou configurando o git
+    */
     public function handle($request, Closure $next)
     {
         
