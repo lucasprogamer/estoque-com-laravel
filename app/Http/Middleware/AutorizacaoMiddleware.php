@@ -9,10 +9,10 @@ class AutorizacaoMiddleware {
      * @return mixed
      */
 
-    /*
-    *
-    * aehooo carolho funfou
-    */
+   /*
+   *
+   * fodase sabagaça
+   */
     public function handle($request, Closure $next)
     {
         
