@@ -9,10 +9,7 @@ class AutorizacaoMiddleware {
      * @return mixed
      */
 
-   /*
-   *
-   * fodase se esta bugando
-   */
+
     public function handle($request, Closure $next)
     {
         
